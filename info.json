@@ -1,0 +1,13 @@
+{
+	"name": "JKIL-CarLight",
+	"version": "0.1.0",
+	"factorio_version": "0.17",
+	"title": "JKIL CarLight doubled",
+	"author": "jockeril",
+	"homepage": "",
+	"description": "This mod doubles the range of the lights on the car. Adapted to 0.17 From Car Light Fix 0.0.2 by Grootie",
+	"dependencies":
+	[
+		"base >= 0.17"
+	]
+}
