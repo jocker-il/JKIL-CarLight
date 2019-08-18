@@ -6,7 +6,7 @@ this mod should be compatible with all other car mods
 ### To Do
 <ul>
   <li>make a setting to determin the scale</li>
-  <li>make a hotkey</li>
+  <li>make a hotkey for the high beam</li>
   <li>make another hotkey for floodlights around the car (For combat ?)</li>
 </ul>
 
