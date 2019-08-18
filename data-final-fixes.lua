@@ -1,37 +1,17 @@
-data.raw.car['car'].light = 
-    {
-      {
-        type = "oriented",
-        minimum_darkness = 0.3,
-        picture =
-        {
-          filename = "__core__/graphics/light-cone.png",
-          priority = "extra-high",
-          flags = { "light" },
-          scale = 2,
-          width = 200,
-          height = 200
-        },
-        shift = {-1.2, -28},
-        size = 4,
-        intensity = 0.6,
-        color = {r = 0.92, g = 0.77, b = 0.3}
-      },
-      {
-        type = "oriented",
-        minimum_darkness = 0.3,
-        picture =
-        {
-          filename = "__core__/graphics/light-cone.png",
-          priority = "extra-high",
-          flags = { "light" },
-          scale = 2,
-          width = 200,
-          height = 200
-        },
-        shift = {1.2, -28},
-        size = 4,
-        intensity = 0.6,
-        color = {r = 0.92, g = 0.77, b = 0.3}
-      }
-    }
+-- With code from Optera
+	
+local scale = 2
+
+-- update all oriented lights (head light) for the "car" entity
+if data.raw["car"]["car"] and data.raw["car"]["car"].light then
+  for k, v in pairs(data.raw["car"]["car"].light) do
+    if v.type and v.type == "oriented" then
+      if v.shift then
+        v.shift[1] = v.shift[1] * (scale * 0.60)        -- Shift up-down from center of car  (when car is facing right)
+        v.shift[2] = v.shift[2] * (scale * 0.875)       -- Shift right-laft from center of car (when car is facing right)
+-- The last part is a down scale to not make it too weird 
+      end
+      v.size = v.size * scale       -- multiplier of the cone size
+    end
+  end
+end
