@@ -4,7 +4,7 @@ Date: 18.08.2019
 
   Changes:
     - Re-worked the code as suggested by Optera - thank you
-    - Changes to the car entity are not made in the data-final-fixes.lua so should be competible with other car modes
+    - Changes to the car entity are now made in the data-final-fixes.lua so should be competible with other car modes
     - because of the above - removed data.lua
 
   To Do:
