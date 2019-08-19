@@ -1,6 +1,6 @@
 {
 	"name": "JKIL-CarLight",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"factorio_version": "0.17",
 	"title": "JKIL's car headlights improved",
 	"author": "jockeril",
@@ -8,6 +8,7 @@
 	"description": "This mod doubles the range of the headlights on the car. Should be compatible with most car mods. Inspired by Car Light Fix 0.0.2 by Grootie",
 	"dependencies":
 	[
-		"base >= 0.17"
+		"base >= 0.17",
+		"? DejaVu"
 	]
 }
