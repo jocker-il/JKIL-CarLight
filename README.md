@@ -1,18 +1,15 @@
 # JKIL-CarLight
-This Factorio mod doubles the range of the lights on the car - Code reworked (see below)
+This #Factorio mod doubles the range of the lights on the car. Adapted to 0.17 From CarLightFix 0.0.2 by Grootie
 
-this mod should be compatible with all other car mods
+ <H2>To do</H2> To Do
+	 - make a setting to determine the scale
+	 - make a hotkey for the high beam
+	 - make another hotkey for floodlights around the car (For combat ?)
 
-### To Do
-<ul>
-  <li>make a setting to determin the scale</li>
-  <li>make a hotkey for the high beam</li>
-  <li>make another hotkey for floodlights around the car (For combat ?)</li>
-</ul>
+Credits:
+- To Optera - thank you for the smoother code suggestions
+- To Wobe - thank you for making this amazing game we love so much !
 
-### Credits:
-\-  To Optera - thank you for the smoother code suggestions<br>
-\-  To Wobe - thank you for making this amasing game we love so much !
 
 Remarks welcome here: https://github.com/jocker-il/JKIL-CarLight/issues
 
